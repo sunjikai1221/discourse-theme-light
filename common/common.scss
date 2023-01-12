@@ -1,0 +1,245 @@
+@import 'variables';
+
+// Header
+// *------------------------------------------------*
+.d-header {
+  img.avatar {
+    border-radius: 20px;
+  }
+  .d-header-icons {
+    .d-icon {
+      color: $header_primary;
+      font-size: 22px;
+    }
+    .header-dropdown-toggle {
+      margin-left: 1rem;
+    }
+  }
+  #site-logo {
+    filter: invert(get_invert($logo-invert-colors)) hue-rotate(#{$logo-hue-rotation}deg) brightness(calc((#{$logo-brightness} / 10) + 1));
+  }
+}
+
+// Search
+// *------------------------------------------------*
+.search-container .search-advanced-sidebar {
+  .search-advanced-title {
+    background: $tertiary;
+    border-radius: 10px 10px 0 0;
+    color: $color-white;
+  }
+  .search-advanced-filters {
+    background: $love-low;
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+// Topic List
+// *------------------------------------------------*
+.fancy-title {
+  font-weight: 400;
+  font-size: $base-font-size-larger;
+}
+
+ol.category-breadcrumb {
+  margin-right: 1.5rem;
+}
+
+.topic-list {
+  th {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: $quaternary;
+    font-weight: bold;
+  }
+  th.default {
+    padding-left: 0;
+  }
+  .sortable:hover {
+    background-color: $color-white;
+  }
+  > tbody {
+    border-top: 3px solid $tertiary-medium;
+    box-shadow: $topic-box-shadow;
+  }
+  td {
+    background-color: $color-white;
+  }
+  .topics {
+    text-align: center;
+  }
+}
+
+.badge-category-bg {
+  border-radius: 9px;
+}
+
+.badge-category-parent-bg {
+  border-radius: 9px;
+}
+
+#create-topic {
+  background-color: $tertiary;
+  color: $color-white;
+
+  .fa {
+    color: $color-white;
+  }
+
+  &:hover {
+    background: var(--tertiary-hover);
+    color: var(--secondary);
+
+    .fa {
+      color: $color-white;
+    }
+  }
+}
+
+// Dropdown & Popus
+// *------------------------------------------------*
+.select-kit .select-kit-collection, .select-kit .select-kit-body {
+  background-color: $color-white;
+}
+
+.menu-panel {
+  background-color: $color-white;
+  border: 5px solid $color-ice;
+  margin-top: 0.60em;
+}
+
+.widget-link {
+  border-radius: 10px;
+}
+
+.popup-menu .d-button-label {
+    color: $tertiary;
+}
+.popup-menu .btn.popup-menu-btn-danger:hover .d-button-label {
+    color: $color-white;
+}
+.popup-menu .btn.popup-menu-btn-danger .d-button-label {
+    color: $tertiary;
+}
+.popup-menu .btn.popup-menu-btn-danger:hover {
+    background: $danger-medium1;
+}
+
+// Buttons
+// *------------------------------------------------*
+.btn {
+  border-radius: $layout-border-radius;
+  box-shadow: inset 0 2px 0 0 rgba(255,255,255,0.4);
+  background-color: $tertiary;
+  color: $color-white;
+
+  .d-icon {
+    color: $color-white;
+  }
+}
+
+.btn-danger {
+  border-radius: $layout-border-radius;
+  box-shadow: inset 0 2px 0 0 rgba(255,255,255,0.4);
+  background-color: $danger;
+  color: $color-white;
+
+  .d-icon {
+    color: $color-white;
+  }
+}
+
+.discourse-no-touch .btn-default:hover, .discourse-no-touch .btn-default.btn-hover,
+ .discourse-no-touch #show-tag-info:hover, .discourse-no-touch #show-tag-info.btn-hover,
+ .discourse-no-touch .user-badges .btn:hover, .discourse-no-touch .user-badges .btn.btn-hover {
+   background: $tertiary-hover;
+   color: $color-white;
+ }
+
+.discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
+  background: $tertiary-hover;
+  color: $color-white;
+}
+
+.nav-pills>li>a {
+  font-size: inherit;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 1rem;
+  border-bottom: 2px solid transparent;
+
+  &:hover {
+    color: $tertiary;
+    border-bottom: 2px solid $tertiary-hover;
+    background-color: transparent;
+  }
+}
+
+.nav-pills>li a.active {
+  background-color: transparent;
+  color: $color-black;
+  font-weight: 700;
+  border-bottom: 2px solid $tertiary;
+
+  &:hover {
+    border-bottom: 2px solid $tertiary-hover;
+    color: $tertiary;
+  }
+}
+
+.nav-stacked {
+  background: $tertiary-low;
+}
+
+// Forms
+// *------------------------------------------------*
+.list-controls {
+  margin: 1.5rem 0;
+  clear: both;
+}
+
+.select-kit-header {
+  border-radius: $layout-border-radius;
+}
+
+#topic-title .title-wrapper {
+  padding: 1.5rem;
+}
+
+#topic-title h1 a {
+  color: $tertiary;
+}
+
+.posts-wrapper {
+  border: 2px solid $color-white;
+  border-radius: 0 0 20px 20px;
+  box-shadow: inset 0 2px 0 0 rgba(255,255,255,0.4);
+  border-top: none;
+  background: $color-white;
+  padding: 1em;
+}
+
+// Admin
+// *------------------------------------------------*
+.admin-controls {
+  .controls {
+    background: $tertiary-low;
+  }
+
+  .nav-pills {
+    background-color: $tertiary-low;
+  }
+
+  .nav-pills>li a.active {
+    background: none;
+    color: $tertiary;
+  }
+}
+
+.discourse-no-touch .admin-controls button:hover,
+ .discourse-no-touch .admin-controls button.btn-hover,
+ .discourse-no-touch .admin-controls label.btn:hover,
+ .discourse-no-touch .admin-controls label.btn.btn-hover {
+  background: $tertiary-hover;
+  color: $color-white;
+ }

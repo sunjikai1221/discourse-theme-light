@@ -1,30 +1,27 @@
 {
-  "name": "Light2",
-  "component": false,
-  "license_url": "https://github.com/sunjikai1221/discourse-theme-light/blob/main/LICENSE",
-  "about_url": null,
-  "authors": "sjk",
-  "theme_version": 0.1,
-  "minimum_discourse_version": null,
-  "maximum_discourse_version": null,
-  "assets": {
-  },
+  "name": "discourse-olaf-theme",
+  "about_url": "https://meta.discourse.org/t/olaf-a-frozen-inspired-theme-for-discourse/172954",
+  "license_url": "https://github.com/MeghnaAJ/discourse-olaf-theme/blob/master/LICENSE",
+  "author": "Meghna",
+  "assets": {},
   "color_schemes": {
-    "New Color Scheme": {
-      "primary": "222222",
-      "secondary": "ffffff",
-      "tertiary": "0088cc",
-      "quaternary": "e45735",
-      "header_background": "ffffff",
-      "header_primary": "333333",
-      "highlight": "ffdd4a",
-      "danger": "c80001",
-      "success": "009900",
-      "love": "fa6c8d",
-      "love1": "fa6c8d"
+    "olaf": {
+      "primary": "000000",
+      "secondary": "F0F8FF",
+      "tertiary": "4682b4",
+      "quaternary": "4682b4",
+      "header_background": "00102E",
+      "header_primary": "ffffff",
+      "highlight": "ffff4d",
+      "highlight-medium": "f4f1e3",
+      "danger": "e45735",
+      "success": "4682B4",
+      "love": "4682B4",
+      "danger-medium": "ec8972",
+      "danger-medium2": "ec8972",
+      "danger-medium3": "ec8972",
+      "tertiary-hover": "356287"
     }
-  },
-  "modifiers": {
   },
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
