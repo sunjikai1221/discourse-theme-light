@@ -1,10 +1,10 @@
 {
   "name": "Light2",
   "component": false,
-  "license_url": null,
+  "license_url": "https://github.com/sunjikai1221/discourse-theme-light/blob/main/LICENSE",
   "about_url": null,
-  "authors": null,
-  "theme_version": null,
+  "authors": "sjk",
+  "theme_version": 0.1,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
